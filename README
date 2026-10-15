@@ -1,0 +1,38 @@
+# AI-Productivity-Assistant
+By XC Mhlanga
+
+## Project Overview
+An AI-powered assistant that automates 5 workplace tasks:
+1. Email generation
+2. Meeting summarization
+3. Task planning
+4. Research assistance
+5. Chatbot interaction
+
+## How it Works
+This is a functional Streamlit app. Each task uses prompt-engineered templates to generate high-quality output.
+
+## AI Tools Used
+- ChatGPT: For email and chatbot logic
+- Gemini: For research summarization
+- Notion AI: For task planning structure
+
+## Prompt Engineering Skills Demonstrated
+- Role prompting (You are a professional assistant...)
+- Constraint prompting (Limit to 150 words, include tone)
+- Chain-of-thought (Summarize step by step)
+- Few-shot prompting (Example emails provided)
+- Zero-shot prompting
+
+## How to Run
+pip install -r requirements.txt
+streamlit run app.py
+
+## Ethical Use
+- No private data stored
+- All research cites sources
+- AI is assistive, not replacement for human judgment
+- User data cleared after session
+
+## Repository Link
+https://github.com/Xiluva2005/AI-Productivity-Assistant-1-
